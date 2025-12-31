@@ -8,7 +8,7 @@ class Bobble < Formula
   head "https://github.com/hyusap/bobble.git", branch: "main"
 
   depends_on xcode: ["14.0", :build]
-  depends_on :macos => :sonoma
+  depends_on macos: :sonoma
 
   uses_from_macos "swift" => :build
 
